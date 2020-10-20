@@ -1,0 +1,128 @@
+* {
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #1e06fa;
+}
+
+.header {
+   height: 100vh;
+   width: auto;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+.header-login {
+    background-image: url('../img/1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: fit-content;
+    padding-top: 0;
+    width: 55%;
+}
+
+.login {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    padding: 25px;
+    
+}
+
+.login form {
+    display: flex;
+    flex-direction: column;
+    width: 55%;
+    background: rgba(0, 0, 0, 0.07);
+    padding: 8em 30px 2.5em;
+}
+
+#username, #password {
+    border: none;
+    background: none;
+    border-bottom: 1px solid #070043;
+    margin-bottom: 20px;
+    outline: none;
+    padding: 10px 20px;
+    font-size: 15px;
+    color: #000;
+}
+
+.btn-container {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 15px;
+}
+
+#login {
+    width:150px;
+    height: 50px;
+    border: none;
+    border-radius: 50px;
+    background: #1e06fa;
+    color: white;
+    cursor: pointer;
+}
+
+#login:hover {
+    width:150px;
+    height: 50px;
+    border: none;
+    border-radius: 50px;
+    background: #fff;
+    color: #1e06fa;
+    cursor: pointer;
+}
+
+#login a {
+    color: #fff;
+}
+
+#forgot {
+    width: 90px;
+    height: 40px;
+    border: none;
+    border-radius: 50px;
+    background: #1e06fa;
+    color: white;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+#forgot:hover {
+    width: 90px;
+    height: 40px;
+    border: none;
+    border-radius: 50px;
+    background: #fff;
+    color: #1e06fa;
+    font-size: 15px;
+}
+
+.forgot {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.forgot p {
+    font-size: 15px;
+}
+
+#fixed {
+    background: white;
+    background-image: url('../img/1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    z-index: -1;
+    transform: scale(1.2);
+}
